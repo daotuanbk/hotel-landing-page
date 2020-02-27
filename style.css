@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+
+.intro header {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  padding: 15px 0px;
+  width: 100%;
+  z-index: 10;
+}
+
+.intro header span {
+  font-family: 'Cinzel', serif;
+  color: #6eacb0;
+}
+.intro .header-image {
+  display: block;
+}
+
+.header-image {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.intro .hotel-title {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  font-size: 5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.explore-button {
+  padding: 20px 40px;
+  border-radius: 30px;
+  font-family: 'Spartan', sans-serif;
+  font-size: .2em;
+  color: #666
+}
+
+.explore-button:hover {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  transition: all 0.3s ease-in-out;
+  box-shadow:  0 0 5px #d9e7ff;
+  color: #333
+}
+
+.explore-button:active {
+  box-shadow: 0 0 0 transparent;
+  transition: none;
+}
+
+.booking {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.booking .title {
+  font-family: 'Cinzel', serif;
+  color: #686868;
+  font-size: 3em;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* .list-rooms .room-item {
+  position: absolute;
+} */
+
+.list-rooms .room-item img {
+  position: relative;
+  opacity: 0.8;
+  left: 0;
+  object-fit: cover;
+  height: 200px;
+}
+
+.list-rooms .row {
+  margin-bottom: 20px;
+}
+.list-rooms .room-item:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, #222 100%);
+  margin: 0 15px;
+}
+
+.list-rooms .room-item .room-item-title {
+  position: absolute;
+  font-family: 'Spartan', sans-serif;
+  font-size: .7em;
+  padding: 10px 15px;
+  background: #6eacb0;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.list-rooms .room-item .room-item-price {
+  position: absolute;
+  font-family: 'Spartan', sans-serif;
+  font-size: .7em;
+  color: #fff;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.ads {
+  background: #eff4f8;
+  padding: 100px 0px;
+}
+
+.ads .ads-text {
+  background: #fff;
+  padding: 20px;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35%;
+  height: 50%;
+  right: 0;
+  box-shadow:  0 0 5px #e6e6e6;
+}
+
+.ads img {
+  border: 5px solid #fff;
+  position: relative;
+  max-width: 80%;
+}
+
+.ads .ads-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.3em;
+  color: #666
+}
+
+.ads .ads-description {
+  font-family: 'Spartan', sans-serif;
+  font-size: .7em;
+  color: #666
+}
